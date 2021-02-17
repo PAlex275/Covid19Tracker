@@ -88,8 +88,6 @@ class MainActivity : AppCompatActivity() {
                             it.negativeIncrease.coerceAtLeast(0),
                             it.deathIncrease.coerceAtLeast(0),
                             it.state
-
-
                         ) }
                     .reversed()
                     .groupBy { it.state }
